@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>DS-Fathom</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.jaypan.ds-fathom</string>
+    <key>CFBundleName</key>
+    <string>DS-Fathom</string>
+    <key>CFBundleDisplayName</key>
+    <string>DS-Fathom</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2026 Jay Pan</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSMinimumSystemVersionByArchitecture</key>
+    <dict>
+        <key>arm64</key>
+        <string>14.0</string>
+    </dict>
+</dict>
+</plist>

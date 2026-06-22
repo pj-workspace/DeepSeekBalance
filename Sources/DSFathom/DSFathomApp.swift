@@ -2,7 +2,7 @@ import SwiftUI
 import ServiceManagement
 
 @main
-struct DeepSeekBalanceApp: App {
+struct DSFathomApp: App {
     @StateObject private var viewModel = BalanceViewModel()
 
     var body: some Scene {

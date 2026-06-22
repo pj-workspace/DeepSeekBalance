@@ -5,7 +5,7 @@
 | ![Main Dashboard](assets/screenshot-main.png) | ![Settings Panel](assets/screenshot-settings.png) | ![History & Chart](assets/screenshot-history.png) |
 | Main Dashboard | Settings Panel | History & Chart |
 
-# Fathom
+# DS-Fathom
 
 *DeepSeek Balance Monitor* — Real-time DeepSeek API balance in your menu bar
 
@@ -33,17 +33,17 @@ A lightweight macOS menu bar app that displays your DeepSeek API account balance
 
 ### Download
 
-[![Download DMG](https://img.shields.io/github/v/release/pj-workspace/DeepSeekBalance?label=Download%20DMG&color=blue)](https://github.com/pj-workspace/DeepSeekBalance/releases/latest)
+[![Download DMG](https://img.shields.io/github/v/release/pj-workspace/DS-Fathom?label=Download%20DMG&color=blue)](https://github.com/pj-workspace/DS-Fathom/releases/latest)
 
-Download the latest `DeepSeekBalance-x.x.x.dmg` from the [Releases page](https://github.com/pj-workspace/DeepSeekBalance/releases), open it, and drag `DeepSeekBalance.app` into `Applications`.
+Download the latest `DeepSeekBalance-x.x.x.dmg` from the [Releases page](https://github.com/pj-workspace/DS-Fathom/releases), open it, and drag `DS-Fathom.app` into `Applications`.
 
 ### Build from Source
 
 ```bash
-git clone https://github.com/pj-workspace/DeepSeekBalance.git
+git clone https://github.com/pj-workspace/DS-Fathom.git
 cd DeepSeekBalance
 ./build.sh
-cp -r DeepSeekBalance.app /Applications/
+cp -r DS-Fathom.app /Applications/
 ```
 
 Requires Xcode Command Line Tools:
@@ -54,7 +54,7 @@ xcode-select --install
 
 ## First Run
 
-1. Launch `DeepSeekBalance.app`
+1. Launch `DS-Fathom.app`
 2. Click the menu bar icon → **Settings**
 3. Enter your DeepSeek API key (get one at [platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys))
 4. Click **Save**
@@ -74,9 +74,9 @@ xcode-select --install
 ## Project Structure
 
 ```
-DeepSeekBalance/
-├── Sources/DeepSeekBalance/
-│   ├── DeepSeekBalanceApp.swift    # @main, MenuBarExtra, dropdown views
+DS-Fathom/
+├── Sources/DS-Fathom/
+│   ├── DSFathomApp.swift    # @main, MenuBarExtra, dropdown views
 │   ├── DeepSeekAPIService.swift    # Balance API client
 │   ├── BalanceViewModel.swift      # State management & business logic
 │   ├── SettingsView.swift          # Settings panel UI

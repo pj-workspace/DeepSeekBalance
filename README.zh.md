@@ -5,7 +5,7 @@
 | ![主界面](assets/screenshot-main.png) | ![设置面板](assets/screenshot-settings.png) | ![历史记录](assets/screenshot-history.png) |
 | 余额总览 | 设置面板 | 历史记录 |
 
-# Fathom
+# DS-Fathom
 
 *DeepSeek 余额监控* — 在菜单栏实时查看你的 DeepSeek API 账户余额
 
@@ -33,17 +33,17 @@
 
 ### 下载
 
-[![下载 DMG](https://img.shields.io/github/v/release/pj-workspace/DeepSeekBalance?label=%E4%B8%8B%E8%BD%BD%20DMG&color=blue)](https://github.com/pj-workspace/DeepSeekBalance/releases/latest)
+[![下载 DMG](https://img.shields.io/github/v/release/pj-workspace/DS-Fathom?label=%E4%B8%8B%E8%BD%BD%20DMG&color=blue)](https://github.com/pj-workspace/DS-Fathom/releases/latest)
 
-从 [Releases 页面](https://github.com/pj-workspace/DeepSeekBalance/releases) 下载最新的 `DeepSeekBalance-x.x.x.dmg`，打开后将 `DeepSeekBalance.app` 拖入 `Applications` 文件夹即可。
+从 [Releases 页面](https://github.com/pj-workspace/DS-Fathom/releases) 下载最新的 `DeepSeekBalance-x.x.x.dmg`，打开后将 `DS-Fathom.app` 拖入 `Applications` 文件夹即可。
 
 ### 从源码编译
 
 ```bash
-git clone https://github.com/pj-workspace/DeepSeekBalance.git
+git clone https://github.com/pj-workspace/DS-Fathom.git
 cd DeepSeekBalance
 ./build.sh
-cp -r DeepSeekBalance.app /Applications/
+cp -r DS-Fathom.app /Applications/
 ```
 
 需要 Xcode Command Line Tools：
@@ -54,7 +54,7 @@ xcode-select --install
 
 ## 首次使用
 
-1. 启动 `DeepSeekBalance.app`
+1. 启动 `DS-Fathom.app`
 2. 点击菜单栏图标 → **设置**
 3. 输入你的 DeepSeek API Key（在 [platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys) 获取）
 4. 点击 **保存**
@@ -74,8 +74,8 @@ xcode-select --install
 ## 项目结构
 
 ```
-DeepSeekBalance/
-├── Sources/DeepSeekBalance/
+DS-Fathom/
+├── Sources/DS-Fathom/
 │   ├── DeepSeekBalanceApp.swift    # @main 入口 + MenuBarExtra + 下拉视图
 │   ├── DeepSeekAPIService.swift    # 余额 API 客户端
 │   ├── BalanceViewModel.swift      # 状态管理与业务逻辑

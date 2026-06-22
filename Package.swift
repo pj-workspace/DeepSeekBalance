@@ -2,15 +2,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "DeepSeekBalance",
+    name: "ds-fathom",
     platforms: [
         .macOS(.v14)
     ],
     targets: [
         .executableTarget(
-            name: "DeepSeekBalance",
+            name: "ds-fathom",
             dependencies: [],
-            path: "Sources/DeepSeekBalance"
+            path: "Sources/DSFathom"
         )
     ]
 )
