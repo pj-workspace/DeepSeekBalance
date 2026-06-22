@@ -5,7 +5,9 @@
 | ![主界面](assets/screenshot-main.png) | ![设置面板](assets/screenshot-settings.png) | ![历史记录](assets/screenshot-history.png) |
 | 余额总览 | 设置面板 | 历史记录 |
 
-# DeepSeek Balance
+# Fathom
+
+*DeepSeek 余额监控* — 在菜单栏实时查看你的 DeepSeek API 账户余额
 
 一款轻量的 macOS 菜单栏应用，实时显示你的 DeepSeek API 账户余额。
 

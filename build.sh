@@ -10,8 +10,8 @@ mkdir -p "$BUILD_DIR" "$CACHE_DIR"
 
 echo "==> Compiling..."
 swiftc \
-  -o "$BUILD_DIR/DeepSeekBalance" \
-  -module-name DeepSeekBalance \
+  -o "$BUILD_DIR/Fathom" \
+  -module-name Fathom \
   -target arm64-apple-macosx15.0 \
   -sdk "$SDK" \
   -module-cache-path "$CACHE_DIR" \
@@ -21,16 +21,16 @@ swiftc \
   -framework Security \
   -framework ServiceManagement \
   -framework UserNotifications \
-  "$PROJECT_DIR/Sources/DeepSeekBalance/"*.swift
+  "$PROJECT_DIR/Sources/Fathom/"*.swift
 
 echo "==> Bundling .app..."
-APP_BUNDLE="$PROJECT_DIR/DeepSeekBalance.app"
+APP_BUNDLE="$PROJECT_DIR/Fathom.app"
 mkdir -p "$APP_BUNDLE/Contents/MacOS" "$APP_BUNDLE/Contents/Resources"
 
-cp "$PROJECT_DIR/DeepSeekBalance.app/Contents/Info.plist" \
+cp "$PROJECT_DIR/Fathom.app/Contents/Info.plist" \
    "$APP_BUNDLE/Contents/Info.plist"
 
-cp "$BUILD_DIR/DeepSeekBalance" \
-   "$APP_BUNDLE/Contents/MacOS/DeepSeekBalance"
+cp "$BUILD_DIR/Fathom" \
+   "$APP_BUNDLE/Contents/MacOS/Fathom"
 
 echo "==> Done: $APP_BUNDLE"

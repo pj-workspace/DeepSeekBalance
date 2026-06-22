@@ -5,7 +5,9 @@
 | ![Main Dashboard](assets/screenshot-main.png) | ![Settings Panel](assets/screenshot-settings.png) | ![History & Chart](assets/screenshot-history.png) |
 | Main Dashboard | Settings Panel | History & Chart |
 
-# DeepSeek Balance
+# Fathom
+
+*DeepSeek Balance Monitor* — Real-time DeepSeek API balance in your menu bar
 
 A lightweight macOS menu bar app that displays your DeepSeek API account balance in real-time.
 
