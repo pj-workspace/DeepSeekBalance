@@ -1,14 +1,16 @@
 [中文版](README.zh.md)
 
+<p align="center">
+  <img src="assets/screenshot-main.png" alt="Main Dashboard" width="280">
+  <img src="assets/screenshot-settings.png" alt="Settings Panel" width="280">
+  <img src="assets/screenshot-history.png" alt="History & Chart" width="280">
+  <br>
+  <em>Main Dashboard · Settings Panel · History with Line Chart</em>
+</p>
+
 # DeepSeek Balance
 
 A lightweight macOS menu bar app that displays your DeepSeek API account balance in real-time.
-
-![main](assets/screenshot-main.png)
-![settings](assets/screenshot-settings.png)
-![history](assets/screenshot-history.png)
-
-*Balance overview · Settings panel · History with line chart*
 
 ---
 

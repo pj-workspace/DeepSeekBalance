@@ -1,14 +1,14 @@
 [English](README.md)
 
+<p align="center">
+  <img src="assets/screenshot-main.png" alt="主界面" width="280">
+  <img src="assets/screenshot-settings.png" alt="设置面板" width="280">
+  <img src="assets/screenshot-history.png" alt="历史记录" width="280">
+</p>
+
 # DeepSeek Balance
 
 一款轻量的 macOS 菜单栏应用，实时显示你的 DeepSeek API 账户余额。
-
-![主界面](assets/screenshot-main.png)
-![设置面板](assets/screenshot-settings.png)
-![历史记录](assets/screenshot-history.png)
-
-*余额总览 · 设置面板 · 历史记录与折线图*
 
 ---
 
