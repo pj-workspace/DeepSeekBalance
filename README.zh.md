@@ -1,10 +1,9 @@
 [English](README.md)
 
-<p align="center">
-  <img src="assets/screenshot-main.png" alt="主界面" width="280">
-  <img src="assets/screenshot-settings.png" alt="设置面板" width="280">
-  <img src="assets/screenshot-history.png" alt="历史记录" width="280">
-</p>
+| | | |
+|:---:|:---:|:---:|
+| ![主界面](assets/screenshot-main.png) | ![设置面板](assets/screenshot-settings.png) | ![历史记录](assets/screenshot-history.png) |
+| 余额总览 | 设置面板 | 历史记录 |
 
 # DeepSeek Balance
 

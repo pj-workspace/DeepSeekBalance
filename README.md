@@ -1,12 +1,9 @@
 [中文版](README.zh.md)
 
-<p align="center">
-  <img src="assets/screenshot-main.png" alt="Main Dashboard" width="280">
-  <img src="assets/screenshot-settings.png" alt="Settings Panel" width="280">
-  <img src="assets/screenshot-history.png" alt="History & Chart" width="280">
-  <br>
-  <em>Main Dashboard · Settings Panel · History with Line Chart</em>
-</p>
+| | | |
+|:---:|:---:|:---:|
+| ![Main Dashboard](assets/screenshot-main.png) | ![Settings Panel](assets/screenshot-settings.png) | ![History & Chart](assets/screenshot-history.png) |
+| Main Dashboard | Settings Panel | History & Chart |
 
 # DeepSeek Balance
 
