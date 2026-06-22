@@ -1,0 +1,10 @@
+*.o
+.build/
+*.app/
+.DS_Store
+*.swp
+*.swo
+Package.resolved
+.build
+/.build
+/.build/
