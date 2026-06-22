@@ -31,7 +31,9 @@ A lightweight macOS menu bar app that displays your DeepSeek API account balance
 
 ### Download
 
-Grab the latest `DeepSeekBalance.app` from the [Releases](https://github.com/pj-workspace/DeepSeekBalance/releases) page and move it to `/Applications`.
+[![Download DMG](https://img.shields.io/github/v/release/pj-workspace/DeepSeekBalance?label=Download%20DMG&color=blue)](https://github.com/pj-workspace/DeepSeekBalance/releases/latest)
+
+Download the latest `DeepSeekBalance-x.x.x.dmg` from the [Releases page](https://github.com/pj-workspace/DeepSeekBalance/releases), open it, and drag `DeepSeekBalance.app` into `Applications`.
 
 ### Build from Source
 

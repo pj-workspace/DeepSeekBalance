@@ -31,7 +31,9 @@
 
 ### 下载
 
-从 [Releases](https://github.com/pj-workspace/DeepSeekBalance/releases) 页面下载最新的 `DeepSeekBalance.app`，放入 `/Applications`。
+[![下载 DMG](https://img.shields.io/github/v/release/pj-workspace/DeepSeekBalance?label=%E4%B8%8B%E8%BD%BD%20DMG&color=blue)](https://github.com/pj-workspace/DeepSeekBalance/releases/latest)
+
+从 [Releases 页面](https://github.com/pj-workspace/DeepSeekBalance/releases) 下载最新的 `DeepSeekBalance-x.x.x.dmg`，打开后将 `DeepSeekBalance.app` 拖入 `Applications` 文件夹即可。
 
 ### 从源码编译
 
